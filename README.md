@@ -10,17 +10,17 @@ The server folder contains back-end related files....
 "Gulab, Pitampura, New Delhi" has images in its gallery... Dont forget to look on that...*
 
 To start the UI development server
-> cd client
+> cd client<br>
 > npm start
 
 To build the UI
-> cd client
+> cd client<br>
 > npm run build
 
 To Start the back-end server
-> cd server
+> cd server<br>
 > npm start
 
 To start the back-end server with nodemon (globally or locally installed)
-> cd server
+> cd server<br>
 > npm run dev
