@@ -1,0 +1,17 @@
+.input-dropdown{
+    position: relative;
+}
+
+.input-dropdown__list{
+    position: absolute;
+    top: 100%;
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.input-dropdown >  input{
+    height: 100%;
+    width: 100%;
+}

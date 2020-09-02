@@ -1,0 +1,28 @@
+.search-input{
+    position: relative;
+
+    border: 1px solid black;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.search-input__field{
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+
+}
+.search-input__result{
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 0 0 1px black;
+    width: 100%;
+    z-index: 100;
+    top: 105%;
+}
+
+.search-input__result > :first-child{margin-top: 10px;} 
+.search-input__result > :last-child{margin-bottom: 10px;} 

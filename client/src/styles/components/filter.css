@@ -1,0 +1,36 @@
+.filter{
+    font-size: 1.4rem;
+    margin: 2.4rem 0;
+    text-transform: capitalize;
+}
+
+.filter__header{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.filter__choice{
+    line-height: calc(var(--checkable-dim)*1.6);
+    display: flex;
+    align-content: center;
+}
+
+
+.filter__choice label{
+    margin-left: calc(var(--checkable-dim)*0.4);
+    color: var(--color-bluey-grey);
+}
+
+.filter__choice input{
+    margin: auto 0;
+    border: solid 1.5px #3a5075;
+}
+.filter__choice [type=checkbox]{
+    width: var(--checkable-dim);
+    height: var(--checkable-dim);
+    border-radius: 1.5px;
+}
+
+.filter__choice [type=radio]{
+    width: var(--checkable-dim);
+    height: var(--checkable-dim);
+}

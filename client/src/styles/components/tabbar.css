@@ -1,0 +1,22 @@
+ul.react-tabs__tab-list{
+    color: var(--color-dark-slate-blue);
+    border-bottom: 2px solid var(--color-bluey-grey);
+    height: var(--tabbar-height);
+}
+li.react-tabs__tab{
+    min-width: 100px;
+    float: left;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: var(--tabbar-height);
+    width: 10%;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 0;
+}
+li.react-tabs__tab--selected{
+    border: none;
+    background-color: inherit;
+    box-shadow: 0 2px var(--color-red);
+    color: var(--color-dark-slate-blu);
+}

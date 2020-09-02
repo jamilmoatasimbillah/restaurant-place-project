@@ -1,0 +1,38 @@
+.restaurant-option{
+    padding: 10px 0;
+    margin: 0 15px;
+    display: flex;
+    cursor: pointer;
+}
+
+.restaurant-option:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.restaurant-option:not(:last-child){
+
+    border-bottom: 1px solid rgba(0,0,0,0.16);
+}
+
+.restaurant-option__info{
+    text-align: left;
+    margin-left: 10px;
+    flex: 1;
+}
+
+.restaurant-option__name{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.restaurant-option__location{
+    font-size: 14px;
+    color: var(--color-bluey-grey);
+}
+
+.restaurant-option__img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: auto;
+}

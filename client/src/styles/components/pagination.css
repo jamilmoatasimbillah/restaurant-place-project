@@ -1,0 +1,30 @@
+.pagination{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    margin-top: 15px;
+    color: #8c96ab;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pagination__page{
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border: solid 1px #8c96ab;
+    border-radius: 10px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.pagination__page--active{
+    background-color: #8c96ab;
+    color: #fff;
+}
+
+.pagination__page-link{
+    display: block;
+}

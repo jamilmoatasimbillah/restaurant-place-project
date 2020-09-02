@@ -1,0 +1,19 @@
+.info-container{
+    margin-left: 10%;
+    margin-top: 48px;
+}
+
+.info-container__heading{
+    line-height: 1.53;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.info-container__subheading{
+    font-size: 18px;
+    color: var(--color-bluey-grey);
+}
+
+.info-container__children{
+    margin-top: 33px;
+}

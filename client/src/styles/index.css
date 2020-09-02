@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    
+    --checkable-dim: 18px;
+
+    --color-dark-slate-blue: #192f60;
+    --color-red: #ce0505;
+    --color-bluey-grey: #8c96ab;
+
+    --font-size-big: 30px;
+
+
+    --tabbar-height: 7vh;
+}
+
+body{
+    font-family: Poppins;
+    line-height: 1.5;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: var(--color-dark-slate-blue);
+    background-color: #fbfbfb;
+}
+
+html{
+    font-size: 62.7%;
+    font-family: Poppins sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 1.6rem;
+}
+
+@import "components/divider.css";
+@import "components/filter.css";
+@import "components/input-dropdown.css";
+@import "components/locationOption.css";
+@import "components/mealType.css";
+@import "components/modal.css";
+@import "components/navbar.css";
+@import "components/pagination.css";
+@import "components/restaurantOption.css";
+@import "components/restaurantTile.css";
+@import "components/select.css";
+@import "components/searchInput.css";
+
+@import "components/tabbar.css";
+@import "components/tile.css";
+
+
+@import "layouts/container.css";
+@import "layouts/filter-container.css";
+@import "layouts/infoContainer.css";
+@import "layouts/imageContainer.css";
+
+
+@import "utility.css";
+
+@import "pages/quickSearch.css";
+@import "pages/resturantDetails.css";
+@import "pages/searchPlaces.css";
+

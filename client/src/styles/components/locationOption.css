@@ -1,0 +1,19 @@
+.location-option{
+    padding: 10px 0;
+    margin: 0 15px;
+    display: flex;
+    cursor: pointer;
+}
+.location-option > pre {
+    font-family: Poppins, monospace, sans-serif;
+    white-space: pre-line;
+}
+
+.location-option:hover{
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.location-option:not(:last-child){
+
+    border-bottom: 1px solid rgba(0,0,0,0.16);
+}

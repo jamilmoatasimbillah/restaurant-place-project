@@ -1,0 +1,138 @@
+.restaurant{
+    margin: 50px 8vw;
+}
+
+.restaurant-heading{
+    height: 45vh;
+}
+@media(max-height: 450px){
+    .restaurant-heading{
+        height: 75vh;
+    }
+}
+
+.restaurant-heading__button{
+    background-color: #fff;
+    position: absolute;
+    bottom: 8%;
+    right: 2.5%;
+    width: 242px;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.restaurant-details{
+    margin-top: 5vh;
+    height: 100vh;
+}
+
+.restaurant-details__heading{
+    font-size: var(--font-size-big);
+    font-weight: 600;
+    margin-bottom: 6vh;
+}
+
+
+.restaurant-gallary{
+    display: flex;
+    justify-content: space-between;
+    background: transparent;
+    color: var(--color-bluey-grey);
+    height: 100%;
+    padding: 0 4%;
+}
+
+.restaurant-gallary__arrow{
+    margin: auto 0;
+    font-size: 10vh;
+    cursor: pointer;
+}
+
+.restaurant-gallary__image{
+    margin: auto 0;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    text-emphasis: center;
+    text-align: center;
+    line-height: 75vh;
+}
+@media (orientation: landscape){
+    .restaurant-gallary__image{
+        height: 75vh;
+    }
+}
+@media (orientation: portrait){
+    .restaurant-gallary__image{
+        width: 75vw;
+    }
+}
+
+.restaurant-details__img{
+    height: 60px;
+    width: 60px;
+    border-radius: 15%;
+    overflow: hidden;
+    margin: 0 20px;
+}
+
+.restaurant-details__img--mobile-only{display: none;}
+
+@media(max-width: 800px){
+    .restaurant-details__img--mobile-only{display: unset;}
+}
+
+
+.restaurant-details__heading{
+    flex: 1;
+    margin: auto 0;
+}
+
+.restaurant-overview{
+    font-weight: 600;
+}
+
+.restaurant-overview__heading{
+    font-size: 22px;
+    margin-top: 4vh;
+    margin-bottom: 6vh;
+}
+
+.restaurant-overview__label{
+    font-size: 18px;
+    margin-top: 3vh;
+    margin-bottom: 1vh;
+}
+
+.restaurant-overview__value{
+    font-weight: normal;
+    margin-bottom: 3vh;
+}
+
+.restaurant-contact{
+    margin-top: 4vh;
+    font-size: 1.8rem;
+}
+
+.restaurant-contact__number{
+    color: #f67082;
+}
+
+.restaurant-contact__addr{margin-top: 5vh; max-width: 500px;}
+
+.restaurant-contact__addr1{font-weight: 600;}
+.restaurant-contact__addr2{font-size: 1.6rem; color:var(--color-bluey-grey)}
+.restaurant-contact__addr3{font-size: 1.6rem; color:var(--color-bluey-grey)}
+
+@media (max-width: 800px){
+    .restaurant{
+        margin: 50px 0;
+    }
+
+    .restaurant-details{
+        padding: 0 20px;
+    }
+}

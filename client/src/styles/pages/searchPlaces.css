@@ -1,0 +1,43 @@
+.search-places{
+    margin: 0 6.5vw;
+}
+
+.search-places__heading{
+    font-size: 3rem;
+    margin: 3.5rem 0;
+}
+
+.search-places__filter-heading{
+    font-size: 2rem;
+}
+
+
+.search-places__left{
+    /* min-width: 200px; */
+    font-size: 1.4rem;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-right: 5%;
+    background-color: #fff;
+}
+
+.search-places__right{
+    flex: 1;
+}
+
+.search-places__results{
+    min-height: 90vh;
+}
+
+
+
+
+@media (max-width: 800px){
+    .search-places > .container-2{
+        flex-direction: column;
+    }
+
+    .search-places__left{
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
